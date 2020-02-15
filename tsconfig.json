@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es6",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "importHelpers": true,
+    "paths": {
+      "@src/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@store/*": ["src/store/*"],
+      "@actions/*": ["src/store/actions/*"],
+      "@reducers/*": ["src/store/reducers/*"],
+      "@types/*": ["src/store/types/*"]
+    },
+    "plugins": [
+      {
+        "name": "typescript-lit-html-plugin"
+      },
+      {
+        "name": "typescript-tslint-plugin"
+      },
+      {
+        "name": "typescript-styled-plugin"
+      }
+    ]
+  },
+  "exclude": ["node_modules"]
+}
