@@ -1,5 +1,5 @@
-export const COUNTER_INCREASE: string = "COUNTER_INCREASE";
-export const COUNTER_DECREASE: string = "COUNTER_DECREASE";
+export const COUNTER_INCREASE = "COUNTER_INCREASE";
+export const COUNTER_DECREASE = "COUNTER_DECREASE";
 
 export interface CounterState {
   counter: number;

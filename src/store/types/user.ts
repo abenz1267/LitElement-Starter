@@ -1,4 +1,4 @@
-export const USER_GET: string = "USER_GET";
+export const USER_GET = "USER_GET";
 
 export interface UserState {
   name: string;
