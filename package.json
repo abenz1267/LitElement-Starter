@@ -19,7 +19,7 @@
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0",
     "ts-loader": "^6.2.2",
-    "tslib": "^1.13.0",
+    "tslib": "^1.14.1",
     "typescript": "^3.9.7",
     "typescript-lit-html-plugin": "^0.9.0",
     "typescript-styled-plugin": "^0.14.0",
